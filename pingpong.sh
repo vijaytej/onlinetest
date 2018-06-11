@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "enter n value"
 read n
-for ( i=1; i<=n; i++)
+for (i=1; i<=n; i++)
 do
 	if [ $i%3 -eq 0 ]
 	then
